@@ -1,0 +1,25 @@
+npx expo start --tunnel
+py manage.py runserver 192.168.42.232:8000
+
+Figma - https://www.figma.com/file/VyNNOQi85q0zlOH7OiIkQ8/DeliveryLindomar?type=design&node-id=4-5&mode=design&t=ge1wiJbP9zQP36ZY-0			
+Produtos 
+
+Prato 1 -> Nasi Goreng
+Prato feito com arroz frito, molho de soja, alho, pimenta, gengibre e cebola, servido com ovo frito e krupuk como acompanhamento.
+R$ 30,40
+
+Prato 2 -> Khao Pad
+Prato composto por arroz frito, ovo, cebola e acompanhado com frango, além de algumas ervas e pimenta.
+R$ 19,95
+
+Prato 3 -> Gado-Gado
+Prato feito com broto de feijão, espinafre, vagem, repolho, pepino e melão de São Caetano, além de batata, tofu e ovos cozidos, servido com um molho de amendoim como acompanhamento.
+R$ 25,55
+
+Prato 4 -> Som Tam
+Filé de salmão acompanhado com uma salada de tomate, vagem, mamão verde e abóbora.
+R$ 25,00
+
+O que preciso fazer?
+Configurar o count do carrinho;
+Arrumar a parte de armazenar pedidos.

@@ -1,0 +1,35 @@
+
+
+alterar carrinho(idProduto, bool){
+
+listaAuxiliar = []
+itemNovo = true
+	[*map
+	percorre a o carrinho e compara se ja existe
+	if (item.id == idProduto){
+		itemNovo = false
+		if (bool){
+			adicionar 1 na qnt
+		}else{
+			tira 1 da qnt
+		}
+	
+	}
+	if (item.qtd > 0){
+		listaAuxiliar.append(item)
+	}
+	]*map
+	if (itemNovo){
+		listaAuxiliar.append({todos os dados necessarios(id, nome, preco, qtd=1)})
+	}
+	setCarrinho(listaAuxiliar)
+
+}
+
+add(idProduto){
+alterar carrinho(idProduto, true)
+}
+
+remover(idProduto){
+alterar carrinho(idProduto, false)
+}
